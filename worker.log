@@ -1,0 +1,991 @@
+
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+
+      [2m+28 vendor frames [22m   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+   Predis\Connection\ConnectionException 
+
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+   Predis\Connection\ConnectionException 
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+32 vendor frames [22m
+  33  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+[2021-05-29 04:00:19][4hngTLyVYwAwuu2cmUqpQbDLB4eepr9Y] Processing: App\Notifications\VerifyEmail
+[2021-05-29 04:01:52][4hngTLyVYwAwuu2cmUqpQbDLB4eepr9Y] Processing: App\Notifications\VerifyEmail
+[2021-05-29 04:02:32][4hngTLyVYwAwuu2cmUqpQbDLB4eepr9Y] Processed:  App\Notifications\VerifyEmail
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Predis\Connection\ConnectionException 
+
+  Error while reading line from the server. [tcp://127.0.0.1:6379]
+
+  at /home/rezwan/sites/blog/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+    151▕      */
+    152▕     protected function onConnectionError($message, $code = null)
+    153▕     {
+    154▕         CommunicationException::handle(
+  ➜ 155▕             new ConnectionException($this, static::createExceptionMessage($message), $code)
+    156▕         );
+    157▕     }
+    158▕ 
+    159▕     /**
+
+      [2m+28 vendor frames [22m
+  29  /home/rezwan/sites/blog/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
