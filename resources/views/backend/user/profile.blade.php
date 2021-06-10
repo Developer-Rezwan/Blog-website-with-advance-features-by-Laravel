@@ -107,8 +107,9 @@
                                             {{$post->updated_at->diffForHumans()}}</span>
                                     </div>
                                     <!-- /.user-block -->
-                                    <p>{!!substr($post->content,0,400)!!}....<a
-                                            href="{{route('post.show',$post->slug)}}">read more</a>
+                                    <p id="short-post">{!! substr($post->content,0,300) !!}...........{!!
+                                        substr($post->content,-100) !!}<a href="{{route('post.show',$post->slug)}}">read
+                                            more</a>
                                     </p>
 
                                     <p>
@@ -239,7 +240,7 @@
                                     @endif
                                 </ul>
                                 <form class="form-horizontal" enctype="multipart/form-data"
-                                    action="{{route('profile.update')}}" method="POST">
+                                    action="{{route('user.profile.update',auth()->user()->id)}}" method="POST">
                                     @csrf
                                     @method('PUT')
                                     <div class="form-group row">
@@ -286,7 +287,7 @@
                                         </div>
                                     </div>
 
-                                    <h3 class="py-3 text-center">About</h3>
+                                    <h3 class="py-3 text-center">About Me</h3>
                                     <div class="form-group row">
                                         <label for="inputExperience" class="col-sm-2 col-form-label">Education</label>
                                         <div class="col-sm-10">

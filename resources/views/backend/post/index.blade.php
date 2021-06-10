@@ -26,8 +26,8 @@
                 <td class="text-center"><img width="100px"
                         src="{{asset('storage/backend/images/'.$post->thumbnail_path)}}"></td>
                 <td>{{substr($post->title,0,30)}}</td>
-                <td>{{$post->category->name}}</td>
-                <td>{{$post->user->fullName}}</td>
+                <td>{{optional($post->category)->name}}</td>
+                <td>{{optional($post->user)->fullName}}</td>
                 <td><a href="{{route('post.status',[$post->slug,$post->status])}}"
                         class="text-center btn {{$post->status == 'trashed' || $post->status == 'pending' ? 'text-danger':'text-success'}}">{{$post->status == 'trashed' ? 'Trushed':($post->status == 'pending' ? 'Pending' : 'Published')}}</a>
                 </td>

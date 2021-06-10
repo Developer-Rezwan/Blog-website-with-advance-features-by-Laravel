@@ -2,7 +2,19 @@
 
 @section('main-content')
 <section class="content">
-
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h2>{{$page_title}}</h2>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="{{route('dashboard')}}">Dashboard</a></li>
+                    <li class="breadcrumb-item active">{{$page_title}}</li>
+                </ol>
+            </div>
+        </div>
+    </div>
     <!-- Default box -->
     <div class="card card-solid">
         <div class="card-body pb-0">
@@ -11,7 +23,8 @@
                 <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                     <div class="card bg-light">
                         <div class="card-header text-muted border-bottom-0">
-                            {{Str::ucfirst($user->role)}}
+                            {{Str::ucfirst($user->role)}} <i
+                                class="fa fa-check-circle {{$user->email_varified == 1 ? 'text-success':''}}"></i>
                         </div>
                         <div class="card-body pt-0">
                             <div class="row">
@@ -46,10 +59,10 @@
                                     @method('DELETE')
                                     <button type="submit" onclick="return confirm('Are You Sure')"
                                         class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                                    <a href="#" class="btn btn-sm bg-teal">
+                                    <a href="{{route('chat.index' , $user->id)}}" class="btn btn-sm bg-teal">
                                         <i class="fas fa-comments"></i>
                                     </a>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="{{route('user.show',encrypt($user->id))}}" class="btn btn-sm btn-primary">
                                         <i class="fas fa-user"></i> View Profile
                                     </a>
                                 </form>

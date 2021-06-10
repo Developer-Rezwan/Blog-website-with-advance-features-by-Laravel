@@ -1,6 +1,19 @@
 require("./bootstrap");
 import jQuery from "jquery";
 window.jQuery = window.$ = jQuery;
+/*
+ * Vue instance
+ */
+import { createApp } from "vue";
+import Messanger from "./../vue/Messanger";
+import Navbar from "./../vue/Navbar";
+
+const app = createApp({});
+app.component("messanger", Messanger);
+app.component("navbar", Navbar);
+app.mount(".app");
+
+
 require("bootstrap");
 require("popper.js");
 require("@fortawesome/fontawesome-free/js/all.js");
@@ -18,4 +31,4 @@ require("startbootstrap-sb-admin-2/js/demo/datatables-demo.js");
 require("./adminlte");
 
 let ClassicEditor = require("@ckeditor/ckeditor5-build-classic");
-ClassicEditor.create(document.querySelector("#editor")).catch((error) => {});
+ClassicEditor.create(document.querySelector("#editor")).catch((error) => { });

@@ -15,6 +15,7 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDeleted('cascade')->onUpdated('cascade');
             $table->string('name', 30)->unique();
             $table->string('slug', 60)->unique();
             $table->tinyInteger('status')->default(1);

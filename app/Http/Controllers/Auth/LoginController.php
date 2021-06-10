@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
 use App\Notifications\VerifyEmail;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class LoginController extends Controller
 {
@@ -48,8 +48,8 @@ class LoginController extends Controller
             $user->login_at = Carbon::now();
             $user->update();
 
-            $request->session()->flash('message', "\u{1F606}\u{1F606}\u{1F606} You are successfully Logged In! \u{1F606}\u{1F606}\u{1F606}");
-            return redirect()->route('dashboard')->with('class', 'alert-success');
+            Alert::success('Welcome', 'You are successfully logged in!');
+            return redirect()->route('dashboard');
         } else {
             $request->session()->flash('error', 'Invalid Credentials ! Please,Try again.');
             return redirect()->back();

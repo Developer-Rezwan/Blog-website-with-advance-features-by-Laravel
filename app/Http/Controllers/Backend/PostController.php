@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Post;
-use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -37,8 +36,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        $this->data['categories']  = Category::with('subCategories')
-            ->select('id', 'name', 'status')
+        $this->data['categories']  = Category::select('id', 'name', 'status')
             ->where('status', 1)
             ->orderBy('updated_at', 'desc')
             ->get();
@@ -113,9 +111,13 @@ class PostController extends Controller
      */
     public function edit($slug)
     {
-        $this->data['thePost'] = Post::where('slug', $slug)
+        $this->data['post'] = Post::where('slug', $slug)
             ->select('id', 'title', 'category_id', 'content', 'status', 'thumbnail_path', 'slug')
-            ->get();
+            ->first();
+
+        /*
+        * Without Egerloading for all categories
+        */
         $this->data['categories'] = Category::select('id', 'name')
             ->where('status', 1)
             ->orderBy('updated_at', 'desc')

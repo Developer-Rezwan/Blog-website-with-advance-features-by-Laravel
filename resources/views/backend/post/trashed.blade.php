@@ -32,13 +32,13 @@
                         class="text-center {{$post->status == 'trashed' || $post->status == 'unpublished' ? 'text-danger':'text-success'}}">{{$post->status == 'trashed' ? 'Trushed':($post->status == 'unpublished' ? 'Unpublised' : 'Published')}}</span>
                 </td>
                 <td style="width:15%">
-                    <form action="{{ route('trashed.destroy',$post->id) }}" method="POST"
+                    <form action="{{ route('post.delete',$post->id) }}" method="POST"
                         onsubmit="return confirm('Are Sure To Delete ???')">
                         @csrf
                         @method('DELETE')
                         <a href="{{route('post.show',$post->slug)}}" class="btn btn-info btn-sm"><i
                                 class="fa fa-eye"></i></a>
-                        <a href="{{route('trashed.restore',$post->slug)}}" class="btn btn-success btn-sm"><i
+                        <a href="{{route('post.restore',$post->slug)}}" class="btn btn-success btn-sm"><i
                                 class="fa fa-recycle"></i></a>
                         <button type="submit" class="btn btn-sm btn-danger"><i class="fa fa-trash-alt"></i></button>
                     </form>

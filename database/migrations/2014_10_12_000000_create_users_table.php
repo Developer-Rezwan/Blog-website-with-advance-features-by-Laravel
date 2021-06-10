@@ -42,7 +42,7 @@ class CreateUsersTable extends Migration
             'email_varification_token'  => Str::random(32),
             'email_varified'            => 1,
             'phone_number'              => 8801797840513,
-            'role'                      => 'admin'
+            'role'                      => 'CEO'
         ]);
     }
 

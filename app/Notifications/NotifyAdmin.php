@@ -41,9 +41,6 @@ class NotifyAdmin extends Notification
      */
     public function toDatabase($notifiable)
     {
-        return [
-            'username'  => $this->user->fullName . ' just create a new account.',
-            'photo'     => $this->user->photo,
-        ];
+        return ['user' => $this->user];
     }
 }

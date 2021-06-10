@@ -25,7 +25,8 @@
                 <td>{{$user->email}}</td>
                 <td>{{Str::ucfirst($user->role)}}</td>
                 <td style="width:15%">
-                    <form action="" method="POST" onsubmit="return confirm('Are Sure To Delete ???')">
+                    <form action="{{route('user.delete',$user->id)}}" method="POST"
+                        onsubmit="return confirm('Are Sure To Delete ???')">
                         @csrf
                         @method('DELETE')
                         <a href="{{route('user.restore',encrypt($user->id))}}" class="btn btn-success btn-sm"><i

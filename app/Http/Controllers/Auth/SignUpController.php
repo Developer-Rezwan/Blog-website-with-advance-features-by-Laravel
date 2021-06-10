@@ -42,7 +42,7 @@ class SignUpController extends Controller
         $this->data['role']                     = 'author';
 
         $photo = $request->file('photo');
-        $fileName = uniqid('photo_', true) . Str::random(10) . '.' . $photo->extension();
+        $fileName = 'photo_' . $request->input('fullName') . Str::random(10) . '.' . $photo->extension();
 
         $this->data['photo']    = $fileName;
         if ($photo->isValid()) {
@@ -51,11 +51,6 @@ class SignUpController extends Controller
 
         try {
             /*
-            * This is also a way to send notification
-            */
-            //Mail::to($this->data['email'])->queue(new VerificationEmail($this->data));
-
-            /*
             * Create a new user
             */
             $user = User::create($this->data);
@@ -63,7 +58,9 @@ class SignUpController extends Controller
             /*
             * Notification system using database
             */
-            $admins = User::where('role', 'admin')->get();
+            $admins = User::where('role', 'CEO')
+                ->orWhere('role', 'admin')
+                ->get();
             foreach ($admins as $admin) {
                 $admin->notify(new NotifyAdmin($user));
             }

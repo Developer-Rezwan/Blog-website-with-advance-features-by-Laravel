@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Events\ChattingEvent;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -10,6 +11,7 @@ use App\Listeners\PostListener;
 use App\Events\PostUpdated;
 use App\Events\PostCreated;
 use App\Events\PostDeleted;
+use App\Listeners\ChatListener;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -30,6 +32,9 @@ class EventServiceProvider extends ServiceProvider
         ],
         PostDeleted::class => [
             PostListener::class
+        ],
+        ChattingEvent::class => [
+            ChatListener::class
         ],
     ];
 

@@ -16,7 +16,10 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $this->data['categories']   = Category::with('subCategories')->select('id', 'name', 'slug', 'status')->orderBy('updated_at', 'desc')->get();
+        $this->data['categories']   = Category::with('user')
+            ->select('user_id', 'id', 'name', 'slug', 'status')
+            ->orderBy('updated_at', 'desc')
+            ->get();
         return view('backend.category.index', $this->backend, $this->data);
     }
 
@@ -47,7 +50,7 @@ class CategoryController extends Controller
         if ($request->status == 'on') {
             $status = 1;
         }
-        Category::create(['name' => $category, 'slug' => $slug, 'status' => $status]);
+        Category::create(['user_id' => auth()->user()->id, 'name' => $category, 'slug' => $slug, 'status' => $status]);
         session()->flash('message', 'Your Category is successfully Created!!!');
         return redirect()->route('category.index')->with('class', 'alert-success');
     }

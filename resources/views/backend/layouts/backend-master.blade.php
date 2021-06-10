@@ -14,10 +14,12 @@
     <link href="{{mix('backend/css/app.css')}}" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" style="background: white !important">
 
+    {{-- Sweet alert --}}
+    @include('sweetalert::alert')
     <!-- Page Wrapper -->
-    <div id="wrapper">
+    <div id="wrapper" class="app">
 
         <!-- Sidebar -->
         @includeUnless(request()->is(['login' , 'sign-up' , 'forgotten-password' , 'verify-phone' ,

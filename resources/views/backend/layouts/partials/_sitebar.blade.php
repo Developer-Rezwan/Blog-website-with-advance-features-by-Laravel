@@ -1,4 +1,5 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar"
+    style="padding-bottom: 22px !important;">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('welcome')}}">
@@ -35,11 +36,11 @@
         <div id="userDropDown" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Manage Users:</h6>
-                <a class="collapse-item" href="{{route('users.all')}}">All User</a>
-                <a class="collapse-item" href="#">Add New</a>
-                <a class="collapse-item" href="#">Admins</a>
-                <a class="collapse-item" href="#">Authors</a>
-                <a class="collapse-item" href="#">Contributors</a>
+                <a class="collapse-item" href="{{route('user.all')}}">All User</a>
+                <a class="collapse-item" href="{{route('user.add-new')}}">Add New</a>
+                <a class="collapse-item" href="{{route('user.admins')}}">Admins</a>
+                <a class="collapse-item" href="{{route('user.authors')}}">Authors</a>
+                <a class="collapse-item" href="{{route('user.contributors')}}">Contributors</a>
                 <a class="collapse-item" href="{{route('user.trashed')}}">Trashed</a>
             </div>
         </div>
@@ -56,9 +57,9 @@
                 <h6 class="collapse-header">Manage Post:</h6>
                 <a class="collapse-item" href="{{route('post.index')}}">All Post</a>
                 <a class="collapse-item" href="{{route('post.create')}}">Add New</a>
-                <a class="collapse-item" href="{{route('published.index')}}">Published</a>
-                <a class="collapse-item" href="{{route('pending.index')}}">Pending</a>
-                <a class="collapse-item" href="{{route('trashed.index')}}">Trashed</a>
+                <a class="collapse-item" href="{{route('post.published')}}">Published</a>
+                <a class="collapse-item" href="{{route('post.pending')}}">Pending</a>
+                <a class="collapse-item" href="{{route('post.trashed')}}">Trashed</a>
             </div>
         </div>
     </li>
@@ -73,8 +74,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Manage Category:</h6>
-                <a class="collapse-item" href="{{route('category.index')}}">Category</a>
-                <a class="collapse-item" href="{{route('sub-category.index')}}">Sub-Category</a>
+                <a class="collapse-item" href="{{route('category.index')}}">All Categories</a>
+                <a class="collapse-item" href="{{route('category.create')}}">Add New</a>
             </div>
         </div>
     </li>
@@ -96,8 +97,8 @@
         <div id="setting" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Manage System:</h6>
-                <a class="collapse-item" href="{{route('category.index')}}">Front-end</a>
-                <a class="collapse-item" href="{{route('sub-category.index')}}">Back-end</a>
+                <a class="collapse-item" href="">Front-end</a>
+                <a class="collapse-item" href="">Back-end</a>
             </div>
         </div>
     </li>
